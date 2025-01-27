@@ -347,11 +347,12 @@ public class SwerveSubsystem extends SubsystemBase
    */
   public Command sysIdDriveMotorCommand()
   {
-    return SwerveDriveTest.generateSysIdCommand(
-        SwerveDriveTest.setDriveSysIdRoutine(
-            new Config(),
-            this, swerveDrive, 12),
-        3.0, 5.0, 3.0);
+    // return SwerveDriveTest.generateSysIdCommand(
+    //     SwerveDriveTest.setDriveSysIdRoutine(
+    //         new Config(),
+    //         this, swerveDrive, 12),
+    //     3.0, 5.0, 3.0);
+    return null;
   }
 
   /**
